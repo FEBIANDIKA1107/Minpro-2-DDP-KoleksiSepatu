@@ -32,6 +32,7 @@ Apabila pengguna memasukkan pilihan menu yang tidak sesuai, sistem menampilkan p
 
 ### 3.1 Login
 <img width="656" height="58" alt="Cuplikan layar 2026-10-06 131638" src="https://github.com/user-attachments/assets/a52dc584-bb02-424e-a248-222d66d0d901" />
+
 Program memiliki fitur login menggunakan username dan password. Terdapat dua role pengguna, yaitu Admin dan User. Sistem akan memeriksa username dan password yang dimasukkan sebelum memberikan akses ke menu sesuai dengan role pengguna.
 
 ### 3.2 Menu Admin
