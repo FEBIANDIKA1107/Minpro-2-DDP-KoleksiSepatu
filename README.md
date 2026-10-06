@@ -4,7 +4,7 @@
 **NIM:** 2609116071  
 **Kelas:** B
 
-## 1. Deskripsi Program
+## 1. Deskripsi Program 
 
 Program ini merupakan pengembangan dari Mini Project 1 dengan tema **Sistem Pengelolaan Data Koleksi Sepatu**. Program dibuat menggunakan bahasa pemrograman Python untuk mengelola data koleksi sepatu yang terdiri dari merek, jenis/model, dan ukuran sepatu.
 
@@ -73,3 +73,16 @@ Menu User memiliki hak akses yang berbeda dari Admin. User hanya dapat melihat d
 Fitur Logout digunakan untuk keluar dari menu Admin atau User dan kembali ke halaman Login. Dengan demikian, pengguna dapat melakukan login kembali menggunakan akun yang berbeda.
 
 ## 4. Nilai Tambah Program
+Program ini memiliki beberapa pengembangan tambahan, yaitu:
+
+1. **Validasi Input**
+   
+   Program melakukan validasi terhadap input pengguna. Contohnya, program memeriksa pilihan menu, merek sepatu, ukuran sepatu, dan nomor data agar input yang diberikan sesuai dengan ketentuan program.
+
+2. **Error Handling**
+   
+   Program menangani kondisi ketika data yang dipilih tidak tersedia. Jika pengguna memilih nomor data yang melebihi jumlah data yang tersimpan, program menampilkan pesan "Data tidak ditemukan" dan tidak menyebabkan program berhenti secara tiba-tiba.
+
+3. **Penggunaan Library datetime**
+   
+   Program menggunakan library `datetime` untuk mendapatkan waktu saat data koleksi sepatu berhasil ditambahkan. Waktu tersebut kemudian ditampilkan kepada pengguna sebagai informasi tambahan.
