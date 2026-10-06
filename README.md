@@ -76,11 +76,13 @@ Fitur Logout digunakan untuk keluar dari menu Admin atau User dan kembali ke hal
 Program ini memiliki beberapa pengembangan tambahan, yaitu:
 
 1. **Validasi Input**
-   
+<img width="649" height="38" alt="Cuplikan layar 2026-10-06 143554" src="https://github.com/user-attachments/assets/56edfd7e-9db1-47fa-a528-c3479be98d04" />
+
    Program melakukan validasi terhadap input pengguna. Contohnya, program memeriksa pilihan menu, merek sepatu, ukuran sepatu, dan nomor data agar input yang diberikan sesuai dengan ketentuan program.
 
 2. **Error Handling**
-   
+<img width="653" height="35" alt="Cuplikan layar 2026-10-06 143850" src="https://github.com/user-attachments/assets/02206c09-bb61-4a40-9e3f-9f60c39569a0" />
+
    Program menangani kondisi ketika data yang dipilih tidak tersedia. Jika pengguna memilih nomor data yang melebihi jumlah data yang tersimpan, program menampilkan pesan "Data tidak ditemukan" dan tidak menyebabkan program berhenti secara tiba-tiba.
 
 3. **Penggunaan Library datetime**
