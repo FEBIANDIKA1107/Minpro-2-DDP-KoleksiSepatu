@@ -15,8 +15,18 @@ Program juga dilengkapi dengan validasi input untuk menangani kesalahan masukan 
 ## 2. Flowchart Program
 
 ### 2.1 Flowchart
+<img width="1210" height="1262" alt="FLOWCHRTMINPRO2 drawio" src="https://github.com/user-attachments/assets/307c2465-3731-45e9-b51f-515111738588" />
 
 ### 2.2 Penjelasan Flowchart
+Program dimulai dengan proses inisialisasi data koleksi sepatu dan data akun pengguna. Setelah itu, pengguna diminta memasukkan username dan password pada halaman login.
+
+Sistem melakukan pengecekan terhadap username dan password. Jika data login tidak benar, sistem menampilkan pesan kesalahan dan pengguna kembali ke proses login. Jika login berhasil, sistem melakukan pengecekan role pengguna.
+
+Jika role yang digunakan adalah Admin, pengguna diarahkan ke Menu Admin. Admin dapat memilih menu Tambah Data, Lihat Data, Ubah Data, Hapus Data, atau Logout. Setelah proses Tambah, Lihat, Ubah, atau Hapus selesai, pengguna kembali ke Menu Admin. Jika memilih Logout, pengguna kembali ke halaman Login.
+
+Jika role yang digunakan adalah User, pengguna diarahkan ke Menu User. User hanya dapat memilih menu Lihat Data atau Logout. Setelah melihat data, pengguna kembali ke Menu User. Jika memilih Logout, pengguna kembali ke halaman Login.
+
+Apabila pengguna memasukkan pilihan menu yang tidak sesuai, sistem menampilkan pesan bahwa pilihan tidak valid dan pengguna kembali ke menu sesuai dengan role yang digunakan.
 
 ## 3. Program dan Dokumentasi Output
 
