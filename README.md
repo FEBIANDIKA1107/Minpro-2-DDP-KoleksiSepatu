@@ -1,4 +1,4 @@
-# Minpro 2 DDP - Koleksi Sepatu
+# Minpro - 2 - DDP - Koleksi Sepatu
 
 **Nama:** Raisha Achdi Febiandika  
 **NIM:** 2609116071  
